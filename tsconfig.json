@@ -11,9 +11,9 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "~/*": ["src/*"],
+      "config/*": ["/config/*"],
     },
   },
   "include": ["src/**/*"],
