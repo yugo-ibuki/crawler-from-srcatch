@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "ts-node ./src/index.ts",
+    "crawl-1": "ts-node ./src/new_crawler/1/main.ts",
     "dev:watch": "ts-node-dev --respawn ./src/index.ts",
     "clean": "rimraf dist/*",
     "tsc": "tsc",
